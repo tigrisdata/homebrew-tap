@@ -10,27 +10,27 @@ class Tigris < Formula
   desc "Command line interface for Tigris object storage"
   homepage "https://www.tigrisdata.com"
   license "MIT"
-  version "3.17.1"
+  version "3.17.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.1/tigris-darwin-arm64.tar.gz"
-      sha256 "31264affae059f4d0435872720339f0cdb7e8f79cb44c03b3f51495e07dfdd37"
+      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.2/tigris-darwin-arm64.tar.gz"
+      sha256 "7d5eab94061d71a9f8d869da0af5126792ca58b36f67fa8a4203ebe30e00c012"
     end
     on_intel do
-      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.1/tigris-darwin-x64.tar.gz"
-      sha256 "16493201efce085ed1b3452e7374bd7a07a0a729221f312ff9ea2574a73e41a0"
+      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.2/tigris-darwin-x64.tar.gz"
+      sha256 "fc333af499867576648719db0545306b2c62acedf95b872678ac9f01cbc7a4bc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.1/tigris-linux-arm64.tar.gz"
-      sha256 "5d1fa4c90ebfb60f2d9a2c1af8fa56ef29f90f4cd60cc6fd3ebbccc1efc7b954"
+      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.2/tigris-linux-arm64.tar.gz"
+      sha256 "52258553bd9488bff5c9d758e2fd43e4ad72d582c19e64a3b119f8c138b80c70"
     end
     on_intel do
-      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.1/tigris-linux-x64.tar.gz"
-      sha256 "145e481ebed365894be0788a9303d0b898960e5c41cf84d9b8971c111147352d"
+      url "https://github.com/tigrisdata/storage/releases/download/%40tigrisdata/cli%403.17.2/tigris-linux-x64.tar.gz"
+      sha256 "7ddb312d8705ec527c47627e28c6967f246c8bc1cfc18c63a0dd2021720404a1"
     end
   end
 
